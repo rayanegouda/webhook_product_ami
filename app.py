@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import boto3
 import os
 import hashlib
+from botocore.config import Config
 
 app = Flask(__name__)
 
